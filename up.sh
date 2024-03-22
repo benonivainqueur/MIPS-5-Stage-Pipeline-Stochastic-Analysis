@@ -1,0 +1,1 @@
+g++ updated_pipeline.cpp -o updated_pipeline && ./updated_pipeline
