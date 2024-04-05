@@ -539,7 +539,7 @@ void runMonteCarloSimulation(int numSimulations, double loadUseHazardProb, doubl
 int main()
 {
   
-    ifstream fin("Input.txt");
+    ifstream fin("machine_code_instructions.txt");
     int i = 1;
     while (fin >> instructions[i])
         i++;
